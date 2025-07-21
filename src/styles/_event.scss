@@ -9,6 +9,10 @@
 
     &--ui-ux {
         background-image: linear-gradient( $blue2, $pink);
+        
+        img {
+           box-shadow: none; 
+        }
     }
 
     &--data-science {
@@ -32,6 +36,8 @@
 
     &__image {
         max-width: 360px;
+        border-radius: 4px;
+        box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.2);
     }
 
     &__detail {
